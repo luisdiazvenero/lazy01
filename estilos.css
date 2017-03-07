@@ -7,14 +7,15 @@ body {
 
 }
 
-.b-lazy {
-    -webkit-transition: opacity 500ms ease-in-out;
-       -moz-transition: opacity 500ms ease-in-out;
-         -o-transition: opacity 500ms ease-in-out;
-            transition: opacity 500ms ease-in-out;
-             max-width: 100%;
-               opacity: 0;
+
+img {
+	opacity: 0;
+  -webkit-transition: opacity 500ms ease-in-out;
+     -moz-transition: opacity 500ms ease-in-out;
+       -o-transition: opacity 500ms ease-in-out;
+          transition: opacity 500ms ease-in-out;
 }
-.b-lazy.b-loaded {
-               opacity: 1;
+
+.b-loaded {
+	opacity: 1;
 }
