@@ -16,6 +16,6 @@ img {
           transition: opacity 500ms ease-in-out;
 }
 
-.b-loaded {
+.b-lazy {
 	opacity: 1;
 }
