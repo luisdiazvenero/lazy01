@@ -9,10 +9,10 @@ body {
 
 
 img {
-        -webkit-transition: opacity 500ms ease-in-out;
-           -moz-transition: opacity 500ms ease-in-out;
-             -o-transition: opacity 500ms ease-in-out;
-                transition: opacity 500ms ease-in-out;
+        -webkit-transition: 1s;
+           -moz-transition: 1s;
+             -o-transition: 1s;
+                transition: 1s;
                  max-width: 100%;
                    opacity: 0;
     }
