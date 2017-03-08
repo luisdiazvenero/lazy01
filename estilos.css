@@ -5,21 +5,31 @@ body {
 
 figure{
 margin: 0 auto;
-width: 500px;
+max-width: 500px;
 background: url("img/load.gif") no-repeat center center;
+overflow: hidden;
 }
 
 
 img {
- -webkit-transition: 1s;
- -moz-transition: 1s;
- -o-transition: 1s;
- transition: 1s;
+ -webkit-transition: 0.5s;
+ -moz-transition: 0.5s;
+ -o-transition: 0.5s;
+ transition: 0.5s;
  max-width: 100%;
  opacity: 0;
  width: 100%;
+ left: -40%;
+ position: relative;
 }
 
 .b-loaded {
  opacity: 1;
+ left: 0;
+}
+
+@media screen (max-width:720px) {
+  figure {
+    width: auto;
+  }
 }
