@@ -9,10 +9,10 @@ body {
 
 
 img {
-        -webkit-transition: 1s;
-           -moz-transition: 1s;
-             -o-transition: 1s;
-                transition: 1s;
+        -webkit-transition: 2s;
+           -moz-transition: 2s;
+             -o-transition: 2s;
+                transition: 2s;
                  max-width: 100%;
                    opacity: 0;
     }
