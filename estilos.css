@@ -27,9 +27,3 @@ img {
  opacity: 1;
  left: 0;
 }
-
-@media screen (max-width:720px) {
-  figure {
-    width: auto;
-  }
-}
