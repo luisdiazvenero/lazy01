@@ -6,6 +6,7 @@ body {
 figure{
 margin: 0 auto;
 width: 500px;
+background: url("img/load.gif") no-repeat center center;
 }
 
 
