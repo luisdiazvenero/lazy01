@@ -3,20 +3,22 @@ body {
   text-align: center;
 }
 
-.contenido {
-
+figure{
+margin: 0 auto;
+width: 500px;
 }
 
 
 img {
-        -webkit-transition: 2s;
-           -moz-transition: 2s;
-             -o-transition: 2s;
-                transition: 2s;
-                 max-width: 100%;
-                   opacity: 0;
-    }
+ -webkit-transition: 1s;
+ -moz-transition: 1s;
+ -o-transition: 1s;
+ transition: 1s;
+ max-width: 100%;
+ opacity: 0;
+ width: 100%;
+}
 
 .b-loaded {
-                   opacity: 1;
-    }
+ opacity: 1;
+}
